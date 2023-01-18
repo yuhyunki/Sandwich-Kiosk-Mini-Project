@@ -32,7 +32,7 @@ public class Order {
 		}
 	}
 	
-	public void makeDrinkOrder() {
+	public void makeDrinkOrder(int no) {
 		
 	}
 	

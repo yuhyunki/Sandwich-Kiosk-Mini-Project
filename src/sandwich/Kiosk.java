@@ -49,7 +49,7 @@ public class Kiosk {
 		while(true) {
 			
 			if(no > 0 && no < 6) {
-				order.makeDrinkOrder();
+				order.makeDrinkOrder(no);
 				break;
 			} else {
 				System.out.println("입력하신 번호가 보기에 없습니다.");

@@ -5,9 +5,9 @@ public class Drink {
 	private String[] drink = new String[] 
 			{"아메리카노", "콜라", "제로 콜라", "사이다", "환타"};
 	
-	public String[] getDrink() {
+	public String getDrink(int no) {
 		
-		return drink;
+		return drink[no];
 	}
 	
 	public void showDrink() {
