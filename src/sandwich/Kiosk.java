@@ -60,10 +60,20 @@ public class Kiosk {
 
 	public void showOrder() {
 		order.showOrder();
+		order.showDrinkOrder();
 	}
 
 	public void payment() {
-		// TODO Auto-generated method stub
+		System.out.println("결제를 진행하시겠습니까? : \n1. 예 \n2. 아니오");
+		int no = sc.nextInt();
 		
+		switch(no) {
+		case 1:
+			System.out.println("성공적으로 결제를 진행했습니다.");
+			return;
+		case 2:
+			System.out.println("결제를 취소하고 돌아갑니다.");
+			break;
+		}
 	}
 }

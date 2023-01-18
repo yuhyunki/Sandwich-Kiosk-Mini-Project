@@ -29,7 +29,7 @@ public class Application {
 			case 1:
 				kiosk.makeSandwichMenu();
 				kiosk.showSandwichMenu();
-				/* 순차적으로 case 2인 음료 메뉴로 이동할 것이기에 break 넣지 않음 */
+				break;
 			case 2:
 				kiosk.showDrinkMenu();
 				break;
@@ -38,7 +38,7 @@ public class Application {
 				break;
 			case 9:
 				kiosk.payment();
-				return;
+				break;
 			default :
 				System.out.print("입력하신 번호가 보기에 없습니다.");
 				break;
